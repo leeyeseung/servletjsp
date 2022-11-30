@@ -1,4 +1,4 @@
-package servlet.exam04;
+package servlet.exam06;
 
 import java.io.IOException;
 
@@ -9,21 +9,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="exam04.ContentController", urlPatterns="/exam04/ContentController")
+@WebServlet(name="exam06.ContentController", urlPatterns="/exam06/ContentController")
 public class ContentController extends HttpServlet{
-
-
 	
+
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/views/exam04/content.jsp").forward(request, response);
+	
+		request.getRequestDispatcher("/WEB-INF/views/exam06/content.jsp").forward(request, response);
 	}
 	
-	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("exam04.ContentController doPost() 실행");
-		response.sendRedirect("/servletjsp/HomeController");
-	}
+
+
 	
 
 }

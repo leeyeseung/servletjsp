@@ -9,7 +9,7 @@
 		html.jsp
 	</div>
 	<div class="card-body">
-		<a href="#" class="btn btn-info btn-sm">링크1</a>
+		<a href="#" class="btn btn-info btn-sm">링크1</a>S
 		<%-- <a href="#" class="btn btn-info btn-sm">링크2</a>--%>
 	<!--  	<a href="#" class="btn btn-info btn-sm">링크3</a>-->
 		

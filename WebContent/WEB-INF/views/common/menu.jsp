@@ -28,5 +28,18 @@
 			<a class="text-white" href="/servletjsp/exam04/ContentController">응답 생성</a>
 		</h6>
 	</li>
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">05.</span>
+			<a class="text-white" href="/servletjsp/exam05/ContentController">요청 정보 얻기</a>
+		</h6>
+	</li>
+	
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">06.</span>
+			<a class="text-white" href="/servletjsp/exam06/ContentController">쿠키</a>
+		</h6>
+	</li>
 	
 </ul>
