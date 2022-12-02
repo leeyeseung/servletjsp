@@ -8,9 +8,9 @@
 		content.jsp
 	</div>
 	<div class="card-body">
-		<a href="/servletjsp/exam04/HtmlResponseController" class="btn btn-info btn-sm">HTML 응답 생성</a>
-		<a href="/servletjsp/exam04/JSONResponseController" class="btn btn-info btn-sm">JSON 응답 생성</a>
-		<a href="/servletjsp/exam04/FileResponseController" class="btn btn-info btn-sm">파일 다운로드 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/HtmlResponseController" class="btn btn-info btn-sm">HTML 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/JSONResponseController" class="btn btn-info btn-sm">JSON 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/FileResponseController" class="btn btn-info btn-sm">파일 다운로드 응답 생성</a>
 		
 	</div>
 </div>
@@ -20,7 +20,7 @@
 		redirect
 	</div>
 		<div class="card-body">
-			<form method="post" action="/servletjsp/exam04/ContentController">
+			<form method="post" action="${pageContext.request.contextPath}/exam04/ContentController">
 	  <div class="form-group">
 	    <label for="email">Email address:</label>
 	    <input type="email" class="form-control" placeholder="Enter email" id="email">

@@ -9,7 +9,7 @@
 	</div>
 	<div class="card-body">
 		<h4>GET 방식</h4>
-			<a href="/servletjsp/exam02/GetController?param1=value1&param2=value2" class="btn btn-info btn-sm">링크로 이동</a>
+			<a href="${pageContext.request.contextPath}/exam02/GetController?param1=value1&param2=value2" class="btn btn-info btn-sm">링크로 이동</a>
 				
 				<form method="get" action="/servletjsp/exam02/GetController">
 					<input type="text" name="param3" value="value3"/><br/>
@@ -18,7 +18,7 @@
 				</form>
 			<hr/>
 		<h4 class="mt-3">POST 방식</h4>
-		<a href="/servletjsp/exam02/PostController?param1=value1&param2=value2" class="btn btn-info btn-sm">링크로 이동</a>
+		<a href="${pageContext.request.contextPath}/exam02/PostController?param1=value1&param2=value2" class="btn btn-info btn-sm">링크로 이동</a>
 
 				<form method="post" action="/servletjsp/exam02/PostController">
 					<input type="text" name="param5" value="value5"/><br/>
